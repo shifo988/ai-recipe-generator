@@ -1,0 +1,20 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.8.1
+2 info using node@v20.16.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/root/.npmrc
+5 silly config load:file:/usr/etc/npmrc
+6 verbose title npm create vite@latest ai-recipe-generator --template react-ts -y
+7 verbose argv "create" "vite@latest" "ai-recipe-generator" "--" "--template" "react-ts" "-y"
+8 verbose logfile logs-max:10 dir:/root/.npm/_logs/2024-07-25T11_58_16_408Z-
+9 verbose logfile /root/.npm/_logs/2024-07-25T11_58_16_408Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:2135687168 maxSize:533921792 maxEntrySize:266960896
+12 http fetch GET 200 https://registry.npmjs.org/create-vite 2948ms (cache revalidated)
+13 silly packumentCache heap:2135687168 maxSize:533921792 maxEntrySize:266960896
+14 verbose cwd /root
+15 verbose os Linux 4.4.0-18362-Microsoft
+16 verbose node v20.16.0
+17 verbose npm  v10.8.1
+18 verbose exit 0
+19 info ok

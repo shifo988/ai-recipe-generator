@@ -1,0 +1,27 @@
+2024-07-10 13:55:02.713 [info] 
+
+
+
+
+2024-07-10 13:55:02.908 [info] Extension host agent started.
+2024-07-10 13:55:04.525 [info] [127.0.0.1][2e305180][ManagementConnection] New connection established.
+2024-07-10 13:55:04.976 [info] [127.0.0.1][1e997bbb][ExtensionHostConnection] New connection established.
+2024-07-10 13:55:14.578 [error] resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-07-10 13:55:14.592 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-07-10 13:55:14.600 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-07-10 13:55:14.601 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-07-10 13:55:14.602 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-07-10 13:55:14.602 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-07-10 13:55:14.603 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-07-10 13:55:14.610 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-07-10 13:55:14.611 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-07-10 13:55:15.252 [info] [127.0.0.1][1e997bbb][ExtensionHostConnection] <95> Launched Extension Host Process.
+2024-07-10 13:55:17.456 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-07-10 13:55:18.655 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2024-07-10 14:40:23.550 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-10 14:40:23.555 [info] [127.0.0.1][2e305180][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-10 14:40:33.766 [info] [127.0.0.1][2e305180][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-10 14:40:33.768 [info] [127.0.0.1][2e305180][ManagementConnection] The client has reconnected.
+2024-07-10 14:40:34.178 [info] [127.0.0.1][1e997bbb][ExtensionHostConnection] The client has reconnected.
+2024-07-10 15:49:17.983 [info] [127.0.0.1][2e305180][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-07-10 15:49:19.115 [info] [127.0.0.1][1e997bbb][ExtensionHostConnection] <95> Extension Host Process exited with code: 0, signal: null.

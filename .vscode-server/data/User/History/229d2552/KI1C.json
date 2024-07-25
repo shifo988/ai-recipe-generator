@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Default Light Modern",
+    "files.autoSave": "afterDelay",
+    "security.workspace.trust.untrustedFiles": "open",
+    "python.defaultInterpreterPath": "C:\\Python312\\python.exe",
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.startupEditor": "none"
+}

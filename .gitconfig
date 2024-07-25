@@ -1,0 +1,3 @@
+[credential]
+	helper = !aws --shifo988 CodeCommitProfile codecommit credential-helper $@
+	UseHttpPath = true
