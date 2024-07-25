@@ -14,3 +14,17 @@
 2024-07-25 14:56:49.815 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
 2024-07-25 14:56:49.816 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
 2024-07-25 15:02:51.101 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-07-25 15:17:33.550 [error] [hashicorp.terraform] provider FAILED
+2024-07-25 15:17:33.556 [error] Error: main.tf (42,18): position outside of any attribute name, value or block
+	at /root/.vscode-server/extensions/hashicorp.terraform-2.32.1-linux-x64/out/extension.js:2:437683
+	at re (/root/.vscode-server/extensions/hashicorp.terraform-2.32.1-linux-x64/out/extension.js:2:437977)
+	at /root/.vscode-server/extensions/hashicorp.terraform-2.32.1-linux-x64/out/extension.js:2:432761
+	at Immediate.<anonymous> (/root/.vscode-server/extensions/hashicorp.terraform-2.32.1-linux-x64/out/extension.js:2:432781)
+	at process.processImmediate (node:internal/timers:478:21)
+2024-07-25 15:17:34.456 [error] [hashicorp.terraform] provider FAILED
+2024-07-25 15:17:34.456 [error] Error: main.tf (43,15): position outside of any attribute name, value or block
+	at /root/.vscode-server/extensions/hashicorp.terraform-2.32.1-linux-x64/out/extension.js:2:437683
+	at re (/root/.vscode-server/extensions/hashicorp.terraform-2.32.1-linux-x64/out/extension.js:2:437977)
+	at /root/.vscode-server/extensions/hashicorp.terraform-2.32.1-linux-x64/out/extension.js:2:432761
+	at Immediate.<anonymous> (/root/.vscode-server/extensions/hashicorp.terraform-2.32.1-linux-x64/out/extension.js:2:432781)
+	at process.processImmediate (node:internal/timers:478:21)
