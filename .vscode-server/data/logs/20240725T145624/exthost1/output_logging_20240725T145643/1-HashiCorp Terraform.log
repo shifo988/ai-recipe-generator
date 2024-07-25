@@ -332,3 +332,14 @@ Started client
 2024/07/25 17:45:15 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 24): {"textDocument":{"uri":"file:///root/learn-terraform-aws-asg/main.tf"}}
 2024/07/25 17:45:15 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 24): []
 2024/07/25 17:45:15 opts.go:215: Completed 1 requests [237.7393ms elapsed]
+2024/07/25 17:46:06 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/07/25 17:46:06 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/07/25 17:46:06 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/07/25 17:46:06 rpc_logger.go:32: Incoming request for "textDocument/hover" (ID 25): {"textDocument":{"uri":"file:///root/learn-terraform-aws-asg/main.tf"},"position":{"line":54,"character":10}}
+2024/07/25 17:46:06 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/07/25 17:46:06 rpc_logger.go:32: Incoming notification for "$/cancelRequest": {"id":25}
+2024/07/25 17:46:06 opts.go:215: Cancelled request 25 by client order
+2024/07/25 17:46:06 hover.go:41: Looking for hover data at "main.tf" -> hcl.Pos{Line:55, Column:11, Byte:1175}
+2024/07/25 17:46:06 hover.go:43: received hover data: (*lang.HoverData)(nil)
+2024/07/25 17:46:06 rpc_logger.go:48: Error for "textDocument/hover" (ID 25): [-32800] error code -32800: main.tf (55,11): position outside of any attribute name, value or block
+2024/07/25 17:46:06 opts.go:215: Completed 1 requests [85.9699ms elapsed]

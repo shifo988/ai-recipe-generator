@@ -38,3 +38,11 @@
 2024-07-25 14:56:54.429 [info] > git rev-parse --show-toplevel [14ms]
 2024-07-25 14:56:54.583 [info] > git rev-parse --show-toplevel [12ms]
 2024-07-25 17:37:54.500 [info] > git rev-parse --show-toplevel [67ms]
+2024-07-25 17:45:30.735 [info] > git config --get commit.template [130ms]
+2024-07-25 17:45:30.743 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [48ms]
+2024-07-25 17:45:30.850 [warning] ENOENT: no such file or directory, open '/root/terraform-tutorial/.git/refs/remotes/origin/main'
+2024-07-25 17:45:30.856 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2024-07-25 17:45:31.033 [info] > git status -z -uall [81ms]
+2024-07-25 17:45:31.221 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [76ms]
+2024-07-25 17:45:31.296 [info] > git config --local branch.main.vscode-merge-base [12ms]
+2024-07-25 17:45:31.369 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [19ms]
